@@ -122,6 +122,7 @@ h1 {
   text-transform: none;
   font-size: inherit;
   color: inherit;
+
 }
 
 h2 {
@@ -761,7 +762,8 @@ p {
 		HERO CSS
 ======================= */
 .hero-section {
-  height: 720px;
+  height: 730px;
+  padding-bottom: 15px;
   background-color: #fafafa;
   background-image: url("../img/hero/hero-bg.svg");
   background-position: left bottom;
@@ -805,6 +807,7 @@ p {
   font-weight: 700;
   color: rgba(0, 0, 0, 0.88);
   display: block;
+  margin-bottom: 15px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
