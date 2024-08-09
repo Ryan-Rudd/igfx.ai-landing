@@ -516,7 +516,7 @@ p {
 }
 
 .navbar-brand img {
-  max-width: 180px;
+  max-width: 100px;
 }
 
 .navbar-toggler {
@@ -796,7 +796,7 @@ p {
   font-weight: 300;
   font-size: 46px;
   line-height: 65px;
-  margin-bottom: 20px;
+  margin-top: 20px;
   color: rgba(0, 0, 0, 0.88);
 }
 
@@ -852,18 +852,17 @@ p {
     padding-top: 60px;
   }
 }
-
-@media (max-width: 767px) {
+@media (max-width: 1400px) {
   .hero-section .hero-image {
-    padding-top: 30px;
+    scale: .8;
+  }
+}
+@media (max-width: 992px) {
+  .hero-section .hero-image {
+    display: none;
   }
 }
 
-@media (max-width: 767px) {
-  .hero-section .hero-image img {
-    max-width: 100%;
-  }
-}
 
 .action-buttons {
   text-align: center;
@@ -1405,6 +1404,7 @@ form.get-started-form button {
 }
 
 .footer .footer-content .widget-wrapper .footer-widget .logo {
+  max-width: 10px;
   margin-bottom: 35px;
 }
 
